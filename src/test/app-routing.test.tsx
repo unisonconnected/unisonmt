@@ -14,4 +14,9 @@ describe("App routing", () => {
 
     expect(matches.at(-1)?.routeId).not.toBe(rootRouteId);
   });
+  it.each(["/products/picture-this", "/impact", "/events", "/team", "/contact"])("matches the standalone %s page", path => {
+    const router = createRouter({ routeTree, context: { queryClient: new QueryClient() } });
+    expect(router.matchRoutes(path).at(-1)?.pathname).toBe(path);
+    expect(router.matchRoutes(path).at(-1)?.routeId).not.toBe(rootRouteId);
+  });
 });
