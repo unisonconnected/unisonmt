@@ -9,6 +9,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        unison: "unison-button bg-secondary text-secondary-foreground",
+        unisonOutline: "unison-button unison-outline text-primary-foreground",
+        gallery: "gallery-thumb",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
