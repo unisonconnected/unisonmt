@@ -424,3 +424,41 @@ footer{text-align:center;background:var(--reference-10);color:var(--reference-13
 /* Preserve the source site's heading hierarchy after the CSS reset. */
 h1,h2,h3{font-weight:700} .hero h1{font-weight:700} #shop .shop-info .eyebrow{color:var(--primary)} .unison-button{font-size:16px} .nav .unison-button{font-size:16px} @media(max-width:600px){.unison-button{font-size:13px} .nav .unison-button{font-size:14px}}
 .card h2{font-size:24px;line-height:1.15}.pill h3{font-size:18px;font-weight:700}
+
+/* Shared page navigation; overrides the original phone-only static bar. */
+.nav.site-nav{position:sticky!important;top:0;z-index:60;flex-direction:row!important;height:86px!important;min-height:86px!important;padding:0 32px!important;gap:20px!important;transition:transform .22s ease;}
+.site-nav.nav-hidden{transform:translateY(-110%);}
+.site-nav:focus-within{transform:translateY(0);}
+.site-nav .logo{flex:0 0 150px!important;width:150px!important;height:64px!important;margin:0!important;}
+.site-nav .logo img{width:140px!important;height:64px!important;max-height:64px!important;}
+.site-nav .site-links{gap:22px;width:auto!important;font-size:15px!important;}
+.site-links a[data-status="active"],.site-nav .products-trigger.selected{color:var(--yellow);}
+.site-nav .products-trigger{padding:0;height:36px;font-size:15px!important;font-weight:800;}
+.site-nav .order-top{font-size:14px!important;padding:12px 18px!important;white-space:nowrap;}
+.site-nav .mobile-menu-toggle{display:none;}
+.products-menu{z-index:70;min-width:200px;padding:8px;border-color:var(--border);}
+.products-menu [role="menuitem"]{padding:12px;font-weight:700;}
+.page-content{min-height:40vh;}
+.page-heading{max-width:1180px;margin:48px auto 0;padding:0 28px;}
+.page-heading h1{font-size:48px;line-height:1.1;margin:14px 0;}
+.page-heading p{color:var(--muted-foreground);font-size:18px;line-height:1.6;}
+.shared-contact .contact{box-shadow:none;border-radius:0;background:transparent;padding:28px 0;border-top:1px solid var(--border);}
+@media(max-width:1100px){
+  .nav.site-nav{flex-wrap:wrap;height:76px!important;min-height:76px!important;padding:0 20px!important;gap:12px!important;}
+  .site-nav .logo{flex-basis:120px!important;width:120px!important;}
+  .site-nav .logo img{width:115px!important;}
+  .site-nav .nav-order{margin-left:auto;}
+  .site-nav .mobile-menu-toggle{display:inline-flex;}
+  .site-nav .site-links{display:none!important;}
+  .site-nav .site-links.menu-open{position:absolute;top:100%;left:0;right:0;width:100%!important;display:flex!important;flex-direction:column;align-items:stretch!important;flex-wrap:nowrap!important;gap:0!important;padding:12px 20px;background:var(--deep);box-shadow:0 8px 30px var(--reference-4);}
+  .site-links.menu-open>a,.site-links.menu-open .products-trigger{padding:14px 8px!important;text-align:left;justify-content:space-between;height:auto;}
+}
+@media(max-width:600px){
+  .nav.site-nav{padding:0 12px!important;gap:8px!important;height:70px!important;min-height:70px!important;}
+  .site-nav .logo{flex-basis:90px!important;width:90px!important;}
+  .site-nav .logo img{width:90px!important;}
+  .site-nav .order-top{font-size:12px!important;padding:10px!important;box-shadow:0 4px 0 var(--reference-7)!important;}
+  .page-heading{padding:0 16px;margin-top:32px;}
+  .page-heading h1{font-size:36px;}
+  .page-heading p{font-size:16px;}
+}

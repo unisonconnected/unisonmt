@@ -9,5 +9,6 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-- Keep the Unison experience as a single index route with section-anchor navigation, matching the source website's structure.
+- Use separate TanStack content routes with shared navigation, contact section and footer in the root layout so every page has the same access to navigation and contact.
+- Keep Picture This! product information and its temporary order basket on the same content route so shopping stays in one place.
 - Store copied website media as Lovable Assets pointers and use React state for the temporary WhatsApp-order basket; orders are not processed online.
