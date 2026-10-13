@@ -6,6 +6,7 @@ import image5 from "@/assets/source-5.jpg.asset.json";
 import image6 from "@/assets/source-6.jpg.asset.json";
 import image7 from "@/assets/source-7.jpg.asset.json";
 import image8 from "@/assets/source-8.jpg.asset.json";
+import wordmark from "@/assets/unison-wordmark.png.asset.json";
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { UnisonShop } from "@/components/unison-shop";
