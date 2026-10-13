@@ -1,6 +1,7 @@
 - [x] Recreate the original Unison page and images.
 - [x] Recreate the photo previews, basket, and WhatsApp order form.
 - [x] Verify the page and ordering controls.
-- [ ] Split the sections into pages and combine Picture This! with ordering.
-- [ ] Add the Products dropdown and shared contact section.
-- [ ] Make navigation return on upward scrolling and verify the page flows.
+- [x] Split the sections into pages and combine Picture This! with ordering.
+- [x] Add the Products dropdown and shared contact section.
+- [x] Make navigation return on upward scrolling and verify the page flows.
+- [x] Open the home page with the large logo and motto; match the price and title sizes in a lighter blue.

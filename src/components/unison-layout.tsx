@@ -3,7 +3,7 @@ import { Link, useLocation } from "@tanstack/react-router";
 import { ChevronDown, Menu, ShoppingCart, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
-import logo from "@/assets/source-0.png.asset.json";
+import logo from "@/assets/unison-wordmark.png.asset.json";
 
 export function UnisonNavigation() {
   const [visible, setVisible] = useState(true);
