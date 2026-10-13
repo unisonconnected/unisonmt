@@ -12,4 +12,4 @@
 - Use separate TanStack content routes with shared navigation, contact section and footer in the root layout so every page has the same access to navigation and contact.
 - Keep Picture This! product information and its temporary order basket on the same content route so shopping stays in one place.
 - Store copied website media as Lovable Assets pointers and use React state for the temporary WhatsApp-order basket; orders are not processed online.
-- Render brand marks from the trimmed wordmark asset rather than the padded square source logo, so nav and hero sizing stays predictable.
+- Render brand marks from tightly cropped Lovable Assets pointers, with independent home and navigation assets so replacing the large home mark does not change navigation sizing.
