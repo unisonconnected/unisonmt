@@ -5,6 +5,7 @@
 - [x] Add the Products dropdown and shared contact section.
 - [x] Make navigation return on upward scrolling and verify the page flows.
 - [x] Open the home page with the large logo and motto; match the price and title sizes in a lighter blue.
-- [ ] Replace the home logo with the uploaded cropped mark and white outline.
-- [ ] Update contact wording to Our products and show larger product names above prices.
-- [ ] Verify the home, product, and shared contact sections.
+- [x] Replace the home logo with the uploaded cropped mark and white outline.
+- [x] Update contact wording to Our products and show larger product names above prices.
+- [x] Place prices beneath product names, use the home description on Picture This!, and keep problem and solution boxes beneath it.
+- [x] Verify the home, product, and shared contact sections.
