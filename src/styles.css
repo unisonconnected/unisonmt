@@ -486,3 +486,4 @@ h1,h2,h3{font-weight:700} .hero h1{font-weight:700} #shop .shop-info .eyebrow{co
   .hero .buy-card h2{font-size:32px}
   .site-nav .logo img{height:34px!important}
 }
+.shared-contact .contact{justify-content:flex-start;column-gap:34px}.shared-contact .contact h2{flex-basis:100%}
