@@ -502,3 +502,4 @@ body:has(.home-bg) .shared-contact{margin-top:0}
   .hero .buy-card{width:100%;max-width:400px;margin:0}
   .pill-strip{grid-template-columns:repeat(3,1fr)!important}
 }
+@media(min-width:601px){.pill-strip{grid-template-columns:repeat(3,1fr)!important}}
