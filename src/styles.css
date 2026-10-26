@@ -490,3 +490,16 @@ h1,h2,h3{font-weight:700} .hero h1{font-weight:700} #shop .shop-info .eyebrow{co
 .home-bg{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--reference-10) 0%,var(--reference-11) 62%,var(--reference-12) 100%);padding-bottom:56px}
 .home-bg .hero{background:transparent;overflow:visible}
 body:has(.home-bg) .shared-contact{margin-top:0}
+/* Landscape/desktop: match the centered alignment of the phone layout */
+.hero-brand{align-items:center;text-align:center}
+.hero .actions{justify-content:center}
+.hero .buy-card{text-align:center}
+@media(min-width:601px) and (max-width:1200px){
+  .hero-inner{display:grid!important;grid-template-columns:1fr 1fr!important;gap:32px!important;justify-items:center;align-items:center}
+  .hero-brand{grid-column:1 / -1}
+  .hero-logo{width:min(380px,70%)}
+  .hero .product-visual{width:100%;max-width:440px;margin:0}
+  .hero .buy-card{width:100%;max-width:400px;margin:0}
+  .pill-strip{grid-template-columns:repeat(3,1fr)!important}
+}
+@media(min-width:601px){.pill-strip{grid-template-columns:repeat(3,1fr)!important}}
