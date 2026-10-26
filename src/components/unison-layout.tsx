@@ -46,7 +46,7 @@ export function UnisonNavigation() {
       </DropdownMenu>
       <Link to="/impact">Impact</Link><Link to="/events">Events</Link><Link to="/team">Team</Link><Link to="/contact">Contact us</Link>
     </div>
-    <Button asChild variant="unison" className="nav-order"><Link className="order-top" to="/products/picture-this" hash="shop"><ShoppingCart aria-hidden="true" /><span>ORDER NOW – €12</span></Link></Button>
+    <Button asChild variant="unison" className="nav-order"><Link className="order-top" to="/products/picture-this" hash="shop"><ShoppingCart aria-hidden="true" /><span>ORDER PICTURE THIS! – €12</span></Link></Button>
     <Button variant="unisonOutline" size="icon" className="mobile-menu-toggle" aria-label={mobileOpen ? "Close navigation" : "Open navigation"} aria-expanded={mobileOpen} aria-controls="page-navigation" onClick={() => setMobileOpen(!mobileOpen)}>{mobileOpen ? <X /> : <Menu />}</Button>
   </nav>;
 }
