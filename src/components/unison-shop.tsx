@@ -33,7 +33,6 @@ export function UnisonShop() {
   }
 
   return <section className="shop-area" id="shop">
-    <h2 className="section-title">The Picture This! Shop</h2>
     <div className="shop-shell">
       <div className="shop-image">
         <div className="product-gallery">
