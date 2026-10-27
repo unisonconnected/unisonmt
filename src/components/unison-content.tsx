@@ -7,7 +7,7 @@ import image6 from "@/assets/source-6.jpg.asset.json";
 import image7 from "@/assets/source-7.jpg.asset.json";
 import image8 from "@/assets/source-8.jpg.asset.json";
 import wordmark from "@/assets/unison-home-outlined.png.asset.json";
-import jaden from "@/assets/jaden-abdila.jpg.asset.json";
+import jaden from "@/assets/jaden-abdila-wide.jpg";
 import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { UnisonShop } from "@/components/unison-shop";
@@ -22,7 +22,7 @@ export function EventsContent() { return <><section className="section unison-ev
 
 export function TeamContent() { return <><section className="team-section" id="team"><h2 className="section-title"><span className="underline">MEET THE TEAM</span></h2><div className="team-grid">
 <article className="member"><div className="photo-wrap"><img alt="Julian Briffa" src={image6.url}/></div><div className="member-text"><h3>Julian Briffa</h3><p>Finance Director</p></div></article>
-<article className="member"><div className="photo-wrap"><img alt="Ben Lautier" src={image7.url}/></div><div className="member-text"><h3>Ben Lautier</h3><p>Managing Director</p></div></article><article className="member jake-card"><div className="photo-wrap"><img alt="Jake Abela" src={image8.url}/></div><div className="member-text"><h3>Jake Abela</h3><p>Quality Control</p></div></article><article className="member"><div className="photo-wrap"><img alt="Jaden Abdila" src={jaden.url}/></div><div className="member-text"><h3>Jaden Abdila</h3><p>Head of Marketing<br />Graphic Designer</p></div></article></div></section></>; }
+<article className="member"><div className="photo-wrap"><img alt="Ben Lautier" src={image7.url}/></div><div className="member-text"><h3>Ben Lautier</h3><p>Managing Director</p></div></article><article className="member jake-card"><div className="photo-wrap"><img alt="Jake Abela" src={image8.url}/></div><div className="member-text"><h3>Jake Abela</h3><p>Quality Control</p></div></article><article className="member"><div className="photo-wrap"><img alt="Jaden Abdila" src={jaden}/></div><div className="member-text"><h3>Jaden Abdila</h3><p>Head of Marketing<br />Graphic Designer</p></div></article></div></section></>; }
 
 export function ImpactContent() { return <><section className="section" id="impact"><div className="impact"><h2>Impact:<br />Driving Real-World Change</h2><div className="impact-item"><div className="round">🤝</div><span>Combat the loneliness epidemic</span></div><div className="impact-item"><div className="round">👥</div><span>Help to unite the youth</span></div><div className="impact-item"><div className="round">🧠</div><span>Boost mental health for adolescents</span></div></div><MissionPills /></section></>; }
 
