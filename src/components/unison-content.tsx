@@ -4,7 +4,7 @@ import image3 from "@/assets/source-3.jpg.asset.json";
 import image4 from "@/assets/source-4.jpg.asset.json";
 import image5 from "@/assets/source-5.jpg.asset.json";
 import image6 from "@/assets/source-6.jpg.asset.json";
-import image7 from "@/assets/source-7.jpg.asset.json";
+import image7 from "@/assets/ben-lautier.jpg.asset.json";
 import image8 from "@/assets/source-8.jpg.asset.json";
 import wordmark from "@/assets/unison-home-outlined.png.asset.json";
 import jaden from "@/assets/jaden-abdila-wide.jpg";
