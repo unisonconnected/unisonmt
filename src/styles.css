@@ -505,3 +505,8 @@ body:has(.home-bg) .shared-contact{margin-top:0}
 @media(min-width:601px){.pill-strip{grid-template-columns:repeat(3,1fr)!important}}
 @media(min-width:1201px){.hero-inner{grid-template-columns:1fr 360px;justify-items:center}}
 .hero .buy-card p{margin-bottom:14px}
+@media(min-width:601px){
+  .hero-inner{grid-template-columns:1fr!important;justify-items:center!important;align-items:center!important}
+  .hero-brand{grid-column:auto}
+  .hero .buy-card{width:100%!important;max-width:420px!important;margin:0 auto!important}
+}
