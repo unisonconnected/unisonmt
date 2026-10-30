@@ -510,3 +510,4 @@ body:has(.home-bg) .shared-contact{margin-top:0}
   .hero-brand{grid-column:auto}
   .hero .buy-card{width:100%!important;max-width:420px!important;margin:0 auto!important}
 }
+.hero .buy-card p{margin-bottom:30px!important}
